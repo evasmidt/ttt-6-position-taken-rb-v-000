@@ -8,7 +8,7 @@
 #return true
 #end
 
-
+def position_taken? (board, index)
 if board == " " || board == ""
 else board == "X" || board == "O"
   return true
